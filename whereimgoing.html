@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Day 1-2 - Get header and footer ready then put on all 3 pages-->
+    <!--Day 3 - Where I am-->
+    <!--Day 4 - Where I've been-->
+    <!--Day 5 - Where I'm going-->
+    <!--Day 6-7 Try to take it live on Firebase-->
+
+    <head>
+        <!--Required meta tags always come first-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+
+        <!--Additional CSS must be placed after Bootstrap CSS-->
+        <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
+        <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
+        <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+        <link rel="stylesheet" href="css/styles.css" />
+        
+        <title>Portfolio of Terrance Conner</title>
+    </head>
+
+<body>
+   <!-- header -->
+   <header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                <a href="index.html"><img src="img/letter_t.png" class height="75" width="75" /></a>
+            </div>
+            <div class="col">
+                <h3>Portfolio of</h3>
+                <h1>Terrance Conner</h1>
+            </div>
+           
+        </div>
+    </div>
+</header>
+
+  <!-- navbar -->
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/letter_t.png" height="30" width="30" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-circle-chevron-right"></i> Where I'm at</a></li>
+                <li class="nav-item"><a class="nav-link" href="whereivebeen.html"><i class="fa-solid fa-circle-chevron-left"></i> Where I've been</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-circle-chevron-up"></i> Where I'm going</a></li>
+                <li class="nav-item"><a class="nav-link" href="tel:2147589619"><i class="fa-solid fa-phone fa-lg text-primary"></i>(214)758-9619</a></li>
+                <li class="nav-item"><a class="nav-link" href = "mailto: tconnerwork@gmail.com"><i class="fa-regular fa-envelope"></i> tconnerwork</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/terrance-conner-76574511/"target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> At Linkedin</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--Where I'm going tab section-->
+<section class="row row-content">
+    <div class="col-12">
+        <h3>Where I'm going </h3>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link active" href="#java_script" role="tab" data-bs-toggle="tab">JavaScript</a></li>
+            <li class="nav-item"><a class="nav-link" href="#react" role="tab" data-bs-toggle="tab">React</a></li>
+            <li class="nav-item"><a class="nav-link" href="#node_js" role="tab" data-bs-toggle="tab">NodeJS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#git_ghub" role="tab" data-bs-toggle="tab">Git</a></li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade show active" id="java_script">
+        <h4>JavaScript <small>Adding a whole new layer of functionality</small></h4>
+        <p class="d-none d-sm-block">Want your website to do more than it is now? Use JavaScript!</p>
+        <div class="col-12 col-sm-12 col-md-6 align-self-center">
+            <img class="d-block w-100" src="img/javapic.png" alt="java image"/>
+        </div>
+        </div>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade" id="react">
+        <h4>React <small>React and React Native</small></h4>
+        <p class="d-none d-sm-block">React - Take JavaScript even higher!</p>
+        <div class="col-12 col-sm-12 col-md-6 align-self-center">
+            <img class="d-block w-100" src="img/reactpic.png" alt="react image"/>
+        </div>
+        </div>
+            <div role="tabpanel" class="tab-pane fade" id="node_js">
+        <h4>NodeJS <small>Take care of things on the backend</small></h4>
+        <p class="d-none d-sm-block">Another way to take care of your Java needs</p>
+        <div class="col-12 col-sm-12 col-md-6 align-self-center">
+            <img class="d-block w-100" src="img/nodejspic.png" alt="node image"/>
+        </div>
+        </div>
+            <div role="tabpanel" class="tab-pane fade" id="git_ghub">
+        <h4>Git & GitHub <small>Seemlessly keep track of your changes</small></h4>
+        <p class="d-none d-sm-block">Learning more and more about Git and GitHub</p>
+        <div class="col-12 col-sm-12 col-md-6 align-self-center">
+            <img class="d-block w-100" src="img/githubpic.png" alt="node image"/>
+        </div>
+        </div>
+</section>
+<!--Footer-->
+        <footer>
+            <div class="footer">
+                <div class="row">             
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5>Navigate:</h5>
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-circle-chevron-right"></i> Where I'm at</a></li>
+                            <li class="nav-item"><a class="nav-link" href="whereivebeen.html"><i class="fa-solid fa-circle-chevron-left"></i> Where I've been</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-circle-chevron-up"></i> Where I'm going</a></li>
+                          
+                        </ul>
+                    </div>
+                    <div class="col"> 
+                    <div class="col-6 col-sm-5 text-center">
+                        <h5>Contact:</h5>
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a href="tel:2147589619"><i class="fa-solid fa-phone fa-lg text-primary"></i>(214)758-9619</a></li>
+                            <li class="nav-item"><a href = "mailto: tconnerwork@gmail.com"><i class="fa-regular fa-envelope"></i> tconnerwork</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/terrance-conner-76574511/"target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> At Linkedin</a></li>
+                            <!--<a href="http://twitter.com/"><i class="fa-brands fa-twitter fa-xl"></i></a>-->
+                            <!--<a href="http://youtube.com/"><i class="fa-brands fa-youtube fa-xl"></i></a>-->
+                        </ul>
+                    </div>
+                    <!--<div class="col-sm-4 text-center">
+                            <a href="tel:6031112298">Click to call a customer support rep.</a>
+                            <i class="fa-solid fa-phone fa-lg text-primary"></i> 1-222-333-4444<br />
+                            <i class="fa-solid fa-envelope fa-lg text-primary"></i> Email: coffeetalk@coffee.co-->
+                    </div>                
+               </div>
+            </div>
+        </footer>
+
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

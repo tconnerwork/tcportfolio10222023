@@ -1,0 +1,107 @@
+/*TC PORTFOLIO CSS STYLES*/
+body {
+	font-family: "font-family:"Verdana, Georgia, serif;
+  background: #e0e3fb;
+  overflow-x:hidden;
+  overflow-y: auto;  
+}
+h1, h2, h3, h7 {
+	font-family: "font-family:"Verdana, Georgia, serif;
+  color: white;
+}
+h2	{
+	color: #3046C5;
+}
+header {
+	padding: 15px;
+	background: linear-gradient(to top, #BFCAFC, #5963C1);
+	color: white;
+}				
+header h2 {
+    color: white;
+}
+footer {
+	background: linear-gradient(to bottom, #BFCAFC, #5963C1);
+  color: white; 
+	padding: 20px 0;
+  /*display: flex;*/
+}
+row-content {
+	padding: 50px 0;
+	border-bottom: 1px ridge;
+	min-height: 200px;
+}
+p {
+	font-family: .d-none .d-sm-block;
+}
+.navbar {
+	background-color: #d9dcfb;
+  color:black;
+  padding: 5px 0;
+}
+.nav-link  {
+  color: blue;
+}
+.nav-link active  {
+  color: blue;
+}
+/*.dropdown-content {
+  display: none;
+  flex: 2;
+  position: absolute;
+  background-color: blue;
+  overflow: none;
+  z-index: 999;
+  color: #ffffff;
+  flex-direction: column;
+}*/
+/*.btn-primary {
+background: blue;
+color: white;
+padding: 6px;
+text-align: center;
+}*/
+.reservetopbutton{
+background:#40E0D0;
+padding: 4px; 
+color:white;
+margin-top:10px;
+border-radius:5px;
+border:1px solid transparent;
+}
+.searchbottombutton{
+background:#1F45FC;
+padding: 4px; 
+color:white;
+margin-top:10px;
+border-radius:5px;
+border:1px solid transparent;
+}
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+.accordion-button {
+  background-color: #d9dcfb;
+  color:black;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/*.carousel {
+    border: solid #5637DD;
+}*/
+/*.carousel-item {
+  margin: 0 auto; this will align the image to center.
+  width: auto
+}*/
+th {
+  background-color: #8B4513;
+  color: white;
+} 
+/*.card-header {
+  padding: 30px;
+	background-image: linear-gradient(to left, #DEB887, #CD853F, #8B4513);
+	color: white;
+}
